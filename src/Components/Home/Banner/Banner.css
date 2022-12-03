@@ -1,0 +1,59 @@
+.picture-part .moving {
+  animation: new 6s alternate infinite;
+}
+@keyframes new {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.picture-part .icon1 {
+  animation: icon1 3s alternate infinite;
+  margin-top: -500px;
+}
+@keyframes icon1 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.picture-part .icon2 {
+  animation: icon2 3s alternate infinite;
+  margin-top: 500px;
+}
+@keyframes icon2 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.picture-part .banner2 {
+  animation: banner2 6s alternate infinite;
+  margin-top: -990px;
+}
+@keyframes banner2 {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-80px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
